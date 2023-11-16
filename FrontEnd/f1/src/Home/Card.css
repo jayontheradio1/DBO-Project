@@ -1,0 +1,34 @@
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background: #fff;
+  }
+  
+  .card-image-container {
+    width: 100%;
+    height: 200px; /* Adjust based on your image aspect ratio */
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the area */
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  

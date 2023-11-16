@@ -4,7 +4,7 @@ import './seasons.css'
 const Seasons = () => {
   const [selectedYear, setSelectedYear] = useState('');
   const [resultsByRace, setResultsByRace] = useState({});
-  const [years, setYears] = useState(['2021', '2022', '2023','2019']); // Placeholder, you might want to fetch this from your API or define it statically
+  const [years, setYears] = useState(['2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021', '2022', '2023','2019']); // Placeholder, you might want to fetch this from your API or define it statically
 
   useEffect(() => {
     if (selectedYear) {
