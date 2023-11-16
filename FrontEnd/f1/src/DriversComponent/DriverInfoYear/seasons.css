@@ -1,0 +1,50 @@
+.seasonsWrapper {
+    font-family: Arial, sans-serif;
+    background-color: #e4d3d3;
+  }
+  
+  .formYear {
+    position: relative;
+    width: 200px; /* or your preferred width */
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .formYear select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #000; /* black border */
+    border-radius: 0; /* square corners */
+    -webkit-appearance: none; /* for Chrome, Safari, and Opera */
+    -moz-appearance: none; /* for Firefox */
+  }  
+  
+  .raceResults {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .raceResults table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .raceResults th, .raceResults td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .raceResults th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  /* Add any additional styles as needed */
+  

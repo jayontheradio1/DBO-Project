@@ -1,0 +1,78 @@
+.card {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+    border-style: solid;
+    border-radius:10px;
+    margin-bottom: 30px;
+}
+
+.image-div{
+    padding-left: 50px;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.position{
+    font-size: 40px;
+    color: red;
+    font-weight: 800;
+}
+
+.position-footer {
+    font-size: 40px;
+    color: rgb(127, 255, 29)(136, 255, 0);
+    font-weight: 800;
+}
+
+.points {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.name {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.flag {
+    width: 40px;
+}
+
+.email{
+    font-size: 18px;
+}
+
+.team {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:red;
+    font-weight: 1000;
+    border-style: solid;
+    border-radius:10px;
+    line-height: 30px;
+}
+
+.driver-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}

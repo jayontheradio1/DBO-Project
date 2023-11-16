@@ -1,0 +1,26 @@
+.raceResults {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .raceResults table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .raceResults th, .raceResults td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .raceResults th {
+    background-color: #f2f2f2;
+    color: black;
+  }

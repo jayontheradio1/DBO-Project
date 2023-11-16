@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Using Roboto font for a modern look, but you can choose any other font */
+
+.podium-finishers {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.podium {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.podium-place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden; /* To ensure the border-radius clips the content */
+}
+
+.podium-place:hover {
+  transform: translateY(-10px); /* Moves the podium up a bit on hover */
+}
+
+.podium-step {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 150px; /* Increased width for better visibility */
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 5px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25); /* Deeper shadow for a 3D effect */
+  font-size: 1.5rem; /* Larger font size for names */
+  font-weight: 700; /* Bold font weight for names */
+  transition: background-color 0.3s ease;
+}
+
+.place-1 .podium-step {
+  background: linear-gradient(145deg, #ffdf00, #ffcc00); /* Refined gold gradient */
+  height: 200px; /* Taller podium step for 1st place */
+}
+
+.place-2 .podium-step {
+  background: linear-gradient(145deg, #d7d7d7, #bcbcbc); /* Refined silver gradient */
+  height: 170px; /* Medium podium step for 2nd place */
+}
+
+.place-3 .podium-step {
+  background: linear-gradient(145deg, #cd853f, #a0522d); /* Refined bronze gradient */
+  height: 140px; /* Shorter podium step for 3rd place */
+}
+
+.podium-count {
+  font-size: 2rem; /* Even larger font size for the count */
+  font-weight: 800; /* Normal font weight for the count */
+  color: #333; /* Darker color for better readability */
+  margin-top: -25px; /* Position the count above the bottom of the step */
+}
+
+.finishers-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px; /* Adjusted max-width for better layout */
+  text-align: left; /* Left-align the list for a cleaner look */
+}
+
+.finishers-list li {
+  background-color: #fafafa; /* Lighter background for list items */
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Soft shadow for list items */
+  border-radius: 5px; /* Rounded corners for list items */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.finishers-list li:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  transform: translateX(10px); /* Slight shift to the right on hover */
+}
